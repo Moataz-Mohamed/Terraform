@@ -18,7 +18,7 @@ module "eks" {
     one = {
       name = "worker-node-1" # name changing
 
-      instance_types = ["t3.small"] 
+      instance_types = ["t3.small"]
 
       min_size     = 1
       max_size     = 3

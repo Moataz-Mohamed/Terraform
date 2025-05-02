@@ -27,12 +27,13 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "gitopsterrastate" # The name of our backend S3 bucket
-    key    = "terraform.tfstate" 
-    region = "us-east-2" # the region of the bucket
+    bucket = "terraformstarte5060" # The name of our backend S3 bucket
+    key    = "terraform/bachend"
+    region = "us-east-1" # the region of the bucket
+
   }
 
-  required_version = "~> 1.6.3"
+  ## required_version = "~> 1.6.3"
 }
 ##
 ##
